@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bars{
+    display: none;
+}
+.navigation h1{
+    display: inline-block;
+    color: blue;
+    font-weight: 600;
+    font-size: 60px;
+    margin-left: 200px;
+    margin-top: 1 0px;
+}
+.navigation h1 sup a{
+    color: blue;
+    font-size: 20px;
+}
+.navigation ul{
+    margin-left: 750px;
+    margin-top: -50px;
+   
+}
+.navigation ul li{
+    display: inline-block;
+    list-style: none;
+    list-style-type: none;
+    margin: 20px;
+}
+.navigation ul li a{
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 27px;
+}
+
+/* first img is start */
+.swimming img{
+    width: 100%;
+   display: inline-block;
+   height: 1000px;
+}
+.img ul{
+    margin-top: -200px;
+    margin-left: 150px;
+
+}
+.img ul li{
+    margin: 40px;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+}
+.img ul li img{
+    display: inline-block;
+    width: 220px;
+    height: 350px;
+}
+.img ul li h1{
+   margin-left: 10px;
+    margin-top: -300px;
+}
+.img ul li p{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.img ul li a{
+    display: inline-block;
+    margin-top: -500px;
+    margin-left: 160px;
+    color: white;
+    font-size: 60px;
+}
+
+
+
+/* box div is start */
+.box ul{
+    margin-left: 200px;
+}
+.box ul li{
+    display: inline-block;
+    margin: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #bfbaba;
+    border-radius: 8px;
+}
+.box ul li h1{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.box ul li p{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.box ul li button{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: red;
+    width: 200px;
+    height: 55px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+.box ul li img{
+    height: 360px;
+    margin-bottom: -50px;
+    border-radius: 8px;
+}
+
+
+/* red div is start */
+.red img{
+    margin-top: 40px;
+    width: 100%;
+    display: inline-block;
+}
+.f7 img{
+    display: inline-block;
+    width: 630px;
+    height: 716px;
+    margin-left: 200px;
+    margin-bottom: 19px;
+    margin-top: -800px;
+}
+.f7 h1{
+    color: white;
+    margin-top: -640px;
+    margin-left: 230px;
+    font-weight: 600;
+    font-size: 30px;
+}
+.f7 p{
+    color: white;
+    margin-left: 230px;
+    margin-top: 80px;
+    font-size: 15px;
+    font-weight: 400;
+}
+.f7 h2{
+    color: white;
+    margin-top: 90px;
+    margin-left: 230px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.f7 button{
+    color: blue;
+    background-color: white;
+    border-color: white;
+    margin-top: 60px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-left: 270px;
+    width: 200px;
+    height: 60px;
+}
+
+
+
+/* box2 is start */
+.box2 ul{
+    display: inline-block;
+    margin-left: 250px;
+    margin-top: -100px;
+    
+}
+.box2 ul li{
+    display: inline-block;
+    background-color: rgb(209, 89, 46);
+    margin: 30px;
+    border-radius: 8px;
+    margin-top: 200px;
+    height: 300px;
+    width: 400px;
+}
+.box2 ul li h1{
+    display: inline-block;
+    margin-top: 30px;
+    color: white;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.box2 ul li h2{
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+.bhausaheb{
+    display: flex;
+    border-radius: 8px;
+    margin-top: -330px;
+    height: 300px;
+    width: 400px;
+    margin-left: 750px;
+}
+/* new div is start */
+.testimonials-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+
+.testimonial {
+    /* flex: 1 1 calc(25% - 20px); */
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    margin: 30px;
+    width: 200px;
+    height: 300px;
+}
+
+.testimonial img {
+   width: 100px;
+   height: 100px;
+   margin-top: -70px;
+    border-radius: 50%;
+    margin-left: 27px;
+}
+.testimonial p{
+    margin-top: 20px;
+}
+.testimonial h4{
+    margin-top: 25px;
+    color: red;
+}
+/* last div is start */
+.section ul{
+    margin-left: 50px;
+}
+.section ul li{
+    display: inline-block;
+    padding: 30px;
+    background-color: rgb(13, 158, 215);
+    width: 400px;
+    height: 350px;
+    border-radius: 8px;
+    margin-left: 260px;
+}
+.section ul li h1{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    color: white;
+}
+.section ul li p{
+    margin-left: 10px;
+    margin-top: 20px;
+    color: white;
+}
+.section ul li h2{
+   
+    margin-bottom: 15PX;
+    margin-top: 15PX;
+    color: white;
+}
+.section ul li a{
+    
+    padding: 10px;
+    color: white;
+}
+.name{
+    font-size: 30px;
+    margin-left: 750px;
+    margin-top: -350px;
+    border-radius: 8px;
+}
+.footer{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* tablet screen  */
+@media (max-width:768px){
+     /* header file */
+     .bars{
+        display: none;
+    }
+     .navigation h1{
+        font-weight: 600;
+        font-size: 50px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .navigation h1 sup a{
+        color: blue;
+        font-size: 20px;
+    }
+    .navigation ul{
+        margin-left: 250px;
+        margin-top: -35px;
+       
+    }
+    .navigation ul li{
+        margin: 5px;
+    }
+    .navigation ul li a{
+        font-size: 20px;
+    }
+    .swimming img{
+        margin-top: 10px;
+        height: 600px;
+    }
+    .img ul{
+        margin-top: -200px;
+        margin-left: 70px;
+    }
+    
+    /* new div is start */
+    .box ul{
+        margin-left: 60px;
+        margin-top: 50px;
+    }
+    .box ul li{
+        margin: 10px;
+        border-radius: 8px;
+        width: 300px;
+        height: 400px;
+    }
+    .box ul li h1{
+        text-align: center;
+        margin-top: 50px;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .box ul li p{
+        font-weight: 400;
+        font-size: 20px;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .box ul li button{
+        margin-left: 30px;
+    }
+    .box ul li img{
+        margin-bottom: -80px;
+        border-radius: 8px;
+        width: 300px;
+        height: 400px;
+    }
+    /* new tag is start */
+    .red img{
+        margin-top:50px;
+        width: 100%;
+    }
+    .f7 img{
+        width: 400px;
+        height: 373px;
+        margin-left: 100px;
+        margin-bottom: 19px;
+        margin-top: -800px;
+    }
+    .f7 h1{
+        margin-top: -360px;
+        margin-left: 130px;
+        font-size: 20px;
+    }
+    .f7 p{
+        margin-left: 110px;
+        margin-top: 40px;
+        font-size: 14px;
+    }
+    .f7 h2{
+        margin-top: 40px;
+        margin-left:110px;
+        font-size: 13px;
+    }
+    .f7 button{
+        margin-top: 40px;
+        margin-left: 130px;
+    }
+
+    /* new div is start in 2 box */
+    .box2 ul{
+        margin-left: 30px;
+        margin-top: 10px;
+        
+    }
+    .box2 ul li{
+        margin: 20px;
+        height: 300px;
+        width: 330px;
+    }
+    
+    .bhausaheb{
+        border-radius: 8px;
+        margin-top: -320px;
+        height: 300px;
+        width: 330px;
+        margin-left: 390px;
+    }
+    /* last in second div is start */
+    .testimonials-section {
+        margin-left: 120px;
+    }
+    /* last div is start */
+    .section ul{
+        margin-left: -250px;
+        margin-top: 30px;
+    }
+    .section ul li{
+        display: inline-block;
+        padding: 30px;
+        background-color: rgb(13, 158, 215);
+        width: 350px;
+        height: 300px;
+        border-radius: 8px;
+        margin-left: 260px;
+    }
+    
+    .name{
+        margin-left: 370px;
+        margin-top: -320px;
+        width: 100px    ;
+    }
+    .footer{
+        font-size: 20px;
+    }
+    
+    
+    
+    
+    
+
+
+
+
+}
+@media (max-width:428px){
+    .bars{
+        display: inline;
+        font-size: 30px;
+        color: black;
+        margin-left: 10px ;
+    }
+    .navigation h1{
+        margin-top: 5px;
+    }
+    .navigation ul{
+        display: none;
+    }
+    .img ul{
+        margin-left: 50px;
+    }
+    .img ul li{
+        margin: 50px;
+        height: 240px;
+    }
+    .red img{
+        margin-top:50px;
+        width: 100%;
+        height: 250px;
+    }
+    .f7 img{
+        width: 250px;
+        height: 250px;
+        margin-left: 60px;
+        margin-bottom: 19px;
+        margin-top: -800px;
+    }
+    .f7 h1{
+        margin-top: -250px;
+        margin-left: 100px;
+        font-size: 15px;
+    }
+    .f7 p{
+        margin-left: 62px;
+        margin-top: 20px;
+        font-size: 9px;
+    }
+    .f7 h2{
+        margin-top: 25px;
+        margin-left:62px;
+        font-size: 8px;
+    }
+    .f7 button{
+        margin-top: 25px;
+        margin-left: 80px;
+        width: 130px;
+        height: 40px;
+    }
+
+    /* new div is start in 2 box */
+    .box2 ul{
+        margin-left: 30px;
+        margin-top: 10px;
+        
+    }
+    .box2 ul li{
+        height: 300px;
+        width: 330px;
+    }
+    
+    .bhausaheb{
+        margin-top: 0px;
+        height: 300px;
+        width: 330px;
+        margin-left: 50px;
+    }
+    .testimonials-section {
+        margin-left: 90px;
+    }
+    .section ul{
+        margin-left: -250px;
+        margin-top: 30px;
+    }
+    .section ul li{
+        display: inline-block;
+        width: 400px;
+    }
+    
+    .name{
+        margin-left:10px;
+        margin-top: 20px;
+        width: 100px    ;
+    }
+    .footer{
+        font-size: 15px;
+    }
+
+
+    
+}
